@@ -1,0 +1,75 @@
+env:
+  TERM: xterm-256color
+  WINIT_X11_SCALE_FACTOR: "1.0"
+
+window:
+  decorations: None
+
+  # startup_mode: Maximized
+
+  padding:
+    x: 0
+    y: 0
+
+colors:
+  primary:
+    background: '#282c34'
+    foreground: '#eceef0'
+
+  # Normal colors
+  normal:
+    black:   '#546d79'
+    red:     '#fe5151'
+    green:   '#69efad'
+    yellow:  '#ffd640'
+    blue:    '#40c3fe'
+    magenta: '#fe3f80'
+    cyan:    '#64fcda'
+    white:   '#fffefe'
+
+  # Bright colors
+  bright:
+    black:   '#b0bdc4'
+    red:     '#fe897f'
+    green:   '#b9f5c9'
+    yellow:  '#ffe47e'
+    blue:    '#80d7fe'
+    magenta: '#fe7faa'
+    cyan:    '#a7fdeb'
+    white:   '#fffefe'
+
+# Copy-on-select
+selection:
+  save_to_clipboard: true
+
+# Fonts
+font:
+  use_thin_strokes: true
+
+  normal:
+    # family: SFMono Nerd Font
+    family: JetBrainsMono Nerd Font
+    # style: Light
+    style: Regular
+
+  bold:
+    # family: SFMono Nerd Font
+    family: JetBrainsMono Nerd Font
+    style: Regular
+    # style: Bold
+
+  italic:
+    # family: SFMono Nerd Font
+    family: JetBrainsMono Nerd Font
+    # style: Light Italic
+    # style: Italic
+    style: Light
+
+  bold_italic:
+    # family: SFMono Nerd Font
+    family: JetBrainsMono Nerd Font
+    # style: Bold Italic
+    # style: Italic
+    style: Light
+
+  size: 13

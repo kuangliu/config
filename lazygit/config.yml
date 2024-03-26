@@ -1,0 +1,7 @@
+gui:
+  theme:
+    selectedLineBgColor:
+      - reverse
+  showRandomTop: false
+  showBottomLine: false
+  showPanelJumps: false
