@@ -51,6 +51,12 @@ config = {
     { key = 'b', mods = 'CTRL', action = wezterm.action.EmitEvent('toggle-tabbar') },
     { key = 't', mods = 'CTRL', action = wezterm.action.SpawnTab('CurrentPaneDomain') },
     { key = 'w', mods = 'CTRL', action = wezterm.action.CloseCurrentPane({ confirm = false }) },
+    { key = '[', mods = 'CTRL', action = wezterm.action.ScrollByPage(-0.5) },
+    { key = ']', mods = 'CTRL', action = wezterm.action.ScrollByPage(0.5) },
+    { key = '1', mods = 'CTRL', action = wezterm.action.ActivateTab(0) },
+    { key = '2', mods = 'CTRL', action = wezterm.action.ActivateTab(1) },
+    { key = '3', mods = 'CTRL', action = wezterm.action.ActivateTab(2) },
+    { key = '4', mods = 'CTRL', action = wezterm.action.ActivateTab(3) },
   },
 }
 
