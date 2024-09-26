@@ -17,6 +17,7 @@ config = {
   color_scheme = 'OneDark (base16)',
   font = wezterm.font('SFMono Nerd Font'),
   font_size = 14,
+  warn_about_missing_glyphs = false,
   window_decorations = 'RESIZE',
   window_background_opacity = 0.8,
   macos_window_background_blur = 10,
