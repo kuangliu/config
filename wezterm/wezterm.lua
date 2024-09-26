@@ -21,7 +21,8 @@ config = {
   window_decorations = 'RESIZE',
   window_background_opacity = 0.8,
   macos_window_background_blur = 10,
-  window_close_confirmation = 'NeverPrompt',
+  window_close_confirmation = 'AlwaysPrompt',
+  skip_close_confirmation_for_processes_named = {},
   window_padding = {
     left = 5,
     right = 5,
@@ -51,7 +52,7 @@ config = {
     { key = 'n', mods = 'CTRL', action = wezterm.action.ActivateTabRelative(1) },
     { key = 'b', mods = 'CTRL', action = wezterm.action.EmitEvent('toggle-tabbar') },
     { key = 't', mods = 'CTRL', action = wezterm.action.SpawnTab('CurrentPaneDomain') },
-    { key = 'w', mods = 'CTRL', action = wezterm.action.CloseCurrentPane({ confirm = false }) },
+    { key = 'w', mods = 'CTRL', action = wezterm.action.CloseCurrentTab({ confirm = true }) },
     { key = '[', mods = 'CTRL', action = wezterm.action.ScrollByPage(-0.5) },
     { key = ']', mods = 'CTRL', action = wezterm.action.ScrollByPage(0.5) },
     { key = '1', mods = 'CTRL', action = wezterm.action.ActivateTab(0) },
